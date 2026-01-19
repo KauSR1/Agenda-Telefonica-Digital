@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Agenda Digital</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📱 Agenda Digital</h1>
+            <p>Sua agenda digital moderna</p>    
+        </div>
+
+        <div class="card">
+            <div class="search-bar">
+                <div class="search-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Procurar Contatos...">
+                </div>
+                <button class="btn btn-primary" id="addBtn">
+                    ➕ Adicionar Contato
+                </button>
+            </div>
+
+            <div class="form-container" id="formContainer">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" id="nameInput" placeholder="Enter name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Telefone</label>
+                        <input type="tel" id="phoneInput" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="emailInput" placeholder="Enter email address">
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" id="cancelBtn">Cancel</button>
+                        <button type="submit" class="btn btn-primary">✓ Save Contact</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contacts-list" id="contactsList"></div>
+        </div>
+    </div>
+</body>
+</html>
