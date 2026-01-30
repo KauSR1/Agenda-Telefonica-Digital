@@ -4,10 +4,14 @@ A **Agenda Telefônica Digital** é uma aplicação web que demonstra como os da
 
 Este projeto foca em **JavaScript ES6+**, eliminando a dependência de um backend tradicional e utilizando o LocalStorage para simular o comportamento de um banco de dados relacional no lado do cliente.
 
+---
+
 **🚀 Como Funciona**
 **1. Frontend (Interface Reativa)**
 
 Uma interface limpa e moderna desenvolvida com HTML5 e CSS3, utilizando modais para criar uma experiência de usuário fluida, sem recarregamento de página.
+
+---
 
 **2. Arquitetura Modular (JavaScript ES6)**
 
@@ -18,9 +22,13 @@ A lógica da aplicação é organizada em módulos bem definidos, promovendo leg
 **localStorage.js** — Camada de persistência de dados
 **formHandler.js** — Captura e processamento dos dados do formulário (SPA behavior)
 
+---
+
 **3. Persistência de Dados (LocalStorage)**
 
 Os dados são serializados em JSON e armazenados via Web Storage API, garantindo persistência mesmo após o fechamento do navegador ou atualização da página.
+
+---
 
 🧠 O Que Este Projeto Ensina
 
@@ -34,11 +42,15 @@ Os dados são serializados em JSON e armazenados via Web Storage API, garantindo
 **Delete** — Exclusão de contatos (em progresso)
 Arquitetura Frontend: Separação clara entre lógica de negócio, persistência e interface.
 
+---
+
 **🛠 Stack Tecnológica**
 **Linguagem:** JavaScript (ES6+)
 **Armazenamento:** LocalStorage (Web Storage API)
 **Interface:** HTML5 / CSS3
 **Arquitetura:** Modular / SPA-like Behavior
+
+---
 
 **🎯 Por Que Isso Importa?**
 
@@ -47,6 +59,8 @@ Nem toda aplicação precisa de um backend. Muitos produtos reais começam — o
 capturar → processar → persistir → renderizar
 Tudo isso usando apenas tecnologias nativas do navegador, com código limpo e arquitetura profissional.
 
+---
+
 **🚩 Status do Projeto**
 
  - [x] **Interface (HTML/CSS)** — Concluído
@@ -54,4 +68,5 @@ Tudo isso usando apenas tecnologias nativas do navegador, com código limpo e ar
  - [x] **Persistência (LocalStorage)** — Concluído
  - [ ] **Renderização Dinâmica da Lista** — Em breve
  - [ ] **CRUD Completo (Editar e Excluir)** — Em breve
+
 
