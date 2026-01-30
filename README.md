@@ -59,6 +59,11 @@ Tudo isso usando apenas tecnologias nativas do navegador, com código limpo e ar
 
 ---
 
+**img hub**
+
+<img width="946" height="672" alt="image" src="https://github.com/user-attachments/assets/b1bee093-78c2-46d4-bd89-96e95c69c532" />
+
+
 **🚩 Status do Projeto**
 
  - [x] **Interface (HTML/CSS)** — Concluído
@@ -66,6 +71,7 @@ Tudo isso usando apenas tecnologias nativas do navegador, com código limpo e ar
  - [x] **Persistência (LocalStorage)** — Concluído
  - [ ] **Renderização Dinâmica da Lista** — Em breve
  - [ ] **CRUD Completo (Editar e Excluir)** — Em breve
+
 
 
 
