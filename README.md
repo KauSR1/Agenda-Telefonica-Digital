@@ -30,7 +30,7 @@ Os dados são serializados em JSON e armazenados via Web Storage API, garantindo
 
 ---
 
-🧠 O Que Este Projeto Ensina
+**🧠 O Que Este Projeto Ensina**
 
 **JavaScript Moderno (ES6+):** Uso prático de import, export, arrow functions e organização modular.
 **Manipulação Avançada de DOM:** Eventos, estados e atualização dinâmica da interface.
@@ -40,9 +40,7 @@ Os dados são serializados em JSON e armazenados via Web Storage API, garantindo
 **Read** — Leitura e renderização dos dados armazenados
 **Update** — Atualização de registros existentes (em progresso)
 **Delete** — Exclusão de contatos (em progresso)
-Arquitetura Frontend: Separação clara entre lógica de negócio, persistência e interface.
-
----
+**Arquitetura Frontend:** Separação clara entre lógica de negócio, persistência e interface.
 
 **🛠 Stack Tecnológica**
 **Linguagem:** JavaScript (ES6+)
@@ -68,5 +66,6 @@ Tudo isso usando apenas tecnologias nativas do navegador, com código limpo e ar
  - [x] **Persistência (LocalStorage)** — Concluído
  - [ ] **Renderização Dinâmica da Lista** — Em breve
  - [ ] **CRUD Completo (Editar e Excluir)** — Em breve
+
 
 
