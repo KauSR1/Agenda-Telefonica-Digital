@@ -1,4 +1,5 @@
 import { contacts, saveStorage } from "./localStorage.js";
+import { renderContacts } from "./render.js";
 
 let contactForm = document.getElementById("contactForm");
 
@@ -12,5 +13,6 @@ contactForm.addEventListener('submit', (e)=>{
   };
   contacts.push(newContactForm);
   saveStorage();
+  renderContacts();
   contactForm.reset();
 });
